@@ -1,0 +1,19 @@
+﻿<Window x:Class="desu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:desu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1440" FontSize="18" Background="Black">
+    <Grid>
+        <Image Margin="341,21,341,931" Source="/kNfjPi0y_4x.jpg" Stretch="Fill"/>
+        <Image Margin="249,159,24,28" Source="/D39ZOwyxjC0.jpg" Stretch="Fill" Opacity="0.9"/>
+        <Button Content="RACE" Margin="11,159,1208,811" FontWeight="Bold" FontSize="30" Background="Black" BorderBrush="#FFF96612" Foreground="#FFFDFDFD" BorderThickness="5" Grid.Column="1"/>
+        <Button Content="CLASSIC" Margin="11,280,1208,689" FontWeight="Bold" FontSize="30" Background="Black" BorderBrush="#FFF96612" Foreground="#FFFDFDFD" BorderThickness="5"/>
+        <Button Content="AUTOMATIVE" Margin="11,400,1208,570" FontWeight="Bold" FontSize="30" Background="Black" BorderBrush="#FFF96612" Foreground="#FFFDFDFD" BorderThickness="5"/>
+        <Button Content="EXTRAS" Margin="11,524,1209,446" FontWeight="Bold" FontSize="30" Background="Black" BorderBrush="#FFF96612" Foreground="#FFFDFDFD" BorderThickness="5"/>
+        <Button Content="EXIT" Margin="31,968,1229,28" FontWeight="Bold" FontSize="30" Background="Black" BorderBrush="#FFF96612" Foreground="#FFFDFDFD" BorderThickness="5"/>
+        <Rectangle HorizontalAlignment="Left" Height="97" Margin="243,77,0,0" Stroke="Black" VerticalAlignment="Top" Width="0"/>
+    </Grid>
+</Window>
